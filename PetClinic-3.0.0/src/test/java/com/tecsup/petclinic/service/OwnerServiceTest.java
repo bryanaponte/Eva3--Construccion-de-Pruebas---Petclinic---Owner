@@ -101,11 +101,11 @@ public class OwnerServiceTest {
 	@Test
 	public void testCreateOwnerandFound() {
 
-		String OWNER_FIRSTNAME = "Maria";
-		String OWNER_LASTNAME = "Escobito";
-		String OWNER_ADDRESS = "345 Maple St.";
-		String OWNER_CITY = "Madison";
-		String OWNER_TELEPHONE = "6085557683";		
+		String OWNER_FIRSTNAME = "Bryan";
+		String OWNER_LASTNAME = "Aponte";
+		String OWNER_ADDRESS = "";
+		String OWNER_CITY = "Cieneguilla";
+		String OWNER_TELEPHONE = "";		
 
 		Owner owner = new Owner(OWNER_FIRSTNAME, OWNER_LASTNAME,
 				OWNER_ADDRESS, OWNER_CITY, OWNER_TELEPHONE);
